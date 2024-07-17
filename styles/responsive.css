@@ -1,0 +1,27 @@
+/* Responsive styles for small devices */
+@media screen and (max-width: 576px) {
+  .menu-container,
+  .brand-name {
+    display: none;
+  }
+  .mobile-menu-wrapper {
+    display: block;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-content,
+  .banner-image {
+    width: 100%;
+  }
+  .banner-container {
+    text-align: center;
+  }
+}
+
+/* Responsive styles for medium devices */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
